@@ -10,6 +10,12 @@
                     <h3 class="h3-year">Año 5</h3>
                     <h3 class="h3-year">Año 6</h3>
                 </div>
+                <div class="modulos-semestre">
+                    <div>
+                        Semestre 1
+                    </div>
+                    <div v-for="items in items"></div>
+                </div>
             </div>
             
         </div>
@@ -17,6 +23,7 @@
 </template>
 
 <script>
+import {malla_computacion} from './data/Mallas.js';
 </script>
 
 <style>

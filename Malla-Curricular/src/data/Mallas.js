@@ -1,369 +1,85 @@
-export const malla_computacion = [
-    {
-      id: 1,
-      nombre: "Introducción a la Programación",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 2,
-      nombre: "Introducción a la ICC",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 3,
-      nombre: "Teoría de Sistemas",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 4,
-      nombre: "Introducción a la Matemática",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 5,
-      nombre: "Comunicación Oral y Escrita I",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 6,
-      nombre: "Idioma Extranjero I",
-      year: 1,
-      semestre: 1
-    },
-    {
-      id: 7,
-      nombre: "Pensamiento Computacional",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 8,
-      nombre: "Interfaces Humano Computador",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 9,
-      nombre: "Álgebra",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 10,
-      nombre: "Cálculo I",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 11,
-      nombre: "Comunicación Oral y Escrita II",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 12,
-      nombre: "Idioma Extranjero II",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 13,
-      nombre: "Deporte I",
-      year: 1,
-      semestre: 2
-    },
-    {
-      id: 14,
-      nombre: "Programación Avanzada",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 15,
-      nombre: "Lenguajes y Paradigmas de Programación",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 16,
-      nombre: "Álgebra Lineal",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 17,
-      nombre: "Cálculo II",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 18,
-      nombre: "Autogestión del Aprendizaje",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 19,
-      nombre: "Idioma Extranjero III",
-      year: 2,
-      semestre: 3
-    },
-    {
-      id: 20,
-      nombre: "Proyecto de Programación",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 21,
-      nombre: "Algoritmos y Estructuras de Datos",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 22,
-      nombre: "Modelos Discretos",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 23,
-      nombre: "Probabilidades y Estadísticas",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 24,
-      nombre: "Trabajo en Equipo y Desarrollo de Habilidades Sociales",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 25,
-      nombre: "Idioma Extranjero IV",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 26,
-      nombre: "Deporte II",
-      year: 2,
-      semestre: 4
-    },
-    {
-      id: 27,
-      nombre: "Requisitos de Software",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 28,
-      nombre: "Metod. de Desarrollo y Planificación de Proy. de Software",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 29,
-      nombre: "Diseño de Bases de Datos",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 30,
-      nombre: "Ecuaciones Diferenciales",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 31,
-      nombre: "Física General",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 32,
-      nombre: "Comprensión de Contextos Sociales",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 33,
-      nombre: "Idioma Extranjero V",
-      year: 3,
-      semestre: 5
-    },
-    {
-      id: 34,
-      nombre: "Diseño de Software",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 35,
-      nombre: "Arquitectura de Computadores y Diseño de Circuitos Digitales",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 36,
-      nombre: "Máquinas Abstractas y Lenguajes Formales",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 37,
-      nombre: "Electricidad y Magnetismo",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 38,
-      nombre: "Comprensión de Contextos Culturales",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 39,
-      nombre: "Idioma Extranjero VI",
-      year: 3,
-      semestre: 6
-    },
-    {
-      id: 40,
-      nombre: "Construcción de Software",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 41,
-      nombre: "Gestión de Base de Datos",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 42,
-      nombre: "Sistemas Operativos",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 43,
-      nombre: "Redes de Computadores",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 44,
-      nombre: "Fundamentos de Administración",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 45,
-      nombre: "Ética y Responsabilidad Social",
-      year: 4,
-      semestre: 7
-    },
-    {
-      id: 46,
-      nombre: "Sistemas Distribuidos",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 47,
-      nombre: "Inteligencia Artificial",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 48,
-      nombre: "Administración de Redes y Sistemas Computacionales",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 49,
-      nombre: "Electivo I",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 50,
-      nombre: "Ing. Económica y Evaluación de Proyectos",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 51,
-      nombre: "Responsabilidad Social",
-      year: 4,
-      semestre: 8
-    },
-    {
-      id: 52,
-      nombre: "Taller de Desarrollo de Software",
-      year: 5,
-      semestre: 9
-    },
-    {
-      id: 53,
-      nombre: "Electivo II",
-      year: 5,
-      semestre: 9
-    },
-    {
-      id: 54,
-      nombre: "Seguridad Informática",
-      year: 5,
-      semestre: 9
-    },
-    {
-      id: 55,
-      nombre: "Gestión de Proyectos Tecnológicos",
-      year: 5,
-      semestre: 9
-    },
-    {
-      id: 56,
-      nombre: "Gestión de Recursos Humanos",
-      year: 5,
-      semestre: 9
-    },
-    {
-      id: 57,
-      nombre: "Formulación Proyecto de Titulación",
-      year: 5,
-      semestre: 10
-    },
-    {
-      id: 58,
-      nombre: "Electivo III",
-      year: 5,
-      semestre: 10
-    },
-    {
-      id: 59,
-      nombre: "Gestión de Innovación y Emprendimiento",
-      year: 5,
-      semestre: 10
-    },
-    {
-      id: 60,
-      nombre: "Proyecto de Titulación",
-      year: 6,
-      semestre: 11
-    },
-    {
-      id: 61,
-      nombre: "Electivo IV",
-      year: 6,
-      semestre: 11
-    }
-  ];
-  
+export const malla_computacion = {
+  "s1": [
+    ["Introducción a la Programación","IALP", 1, "s1",[]],
+    ["Introducción a la ICC","IICC", 1, "s1",[]],
+    ["Teoría de Sistemas","TDS", 1, "s1",[]],
+    ["Introducción a la Matemática","IALM", 1, "s1",[]],
+    ["Comunicación Oral y Escrita I","COE-1", 1, "s1",[]],
+    ["Idioma Extranjero I","IE-1", 1, "s1",[]],
+  ],
+  "s2": [
+    ["Pensamiento Computacional","PC", 1, "s2",[]],
+    ["Interfaces Humano Computador","HCI", 1, "s2",["IICC"]],
+    ["Álgebra","ALG-1", 1, "s2",[]],
+    ["Cálculo I","CAL-1", 1, "s2",["IALM"]],
+    ["Comunicación Oral y Escrita II","COE-2", 1, "s2",["COE-1"]],
+    ["Idioma Extranjero II","IE-2", 1, "s2",["IE-1"]],
+    ["Deporte I","DEP-1", 1, "s2",[]],
+  ],
+  "s3": [
+    ["Programación Avanzada","PA", 2, "s3",["PC"]],
+    ["Lenguajes y Paradigmas de Programación","LPP", 2, "s3",["IALP"]],
+    ["Álgebra Lineal","ALG-2", 2, "s3","ALG-1"],
+    ["Cálculo II","CA-2", 2, "s3",["CAL-1","IALM"]],
+    ["Autogestión del Aprendizaje","ADA", 2, "s3",[]],
+    ["Idioma Extranjero III","IE-3", 2, "s3",["IE-1","IE-2"]],
+  ],
+  "s4": [
+    ["Proyecto de Programación","SOF-1", 2, "s4",["PA","PC"]],
+    ["Algoritmos y Estructuras de Datos","AED", 2, "s4",["PC","ALG-1"]],
+    ["Modelos Discretos","MD", 2, "s4",["ALG-2","TDS"]],,
+    ["Probabilidades y Estadísticas","PE", 2, "s4"],
+    ["Trabajo en Equipo y Desarrollo de Habilidades Sociales","TEDH", 2, "s4",["ADA"]],
+    ["Idioma Extranjero IV","IE-4","IE-4", 2, "s4",["IE-1","IE-2","IE-3"]],
+    ["Deporte II","DEP-2","DEP-2", 2, "s4",[]],
+  ],
+  "s5": [
+    ["Requisitos de Software","SOF-2", 3, "s5",["PA","PC"]],
+    ["Metod. de Desarrollo y Planificación de Proy. de Software","SOF-3", 3, "s5",["SOF-1","PA","PC"]],
+    ["Diseño de Bases de Datos", "BD-1",3, "s5",["MD","ALG-1","ALG-2","TDS"]],
+    ["Ecuaciones Diferenciales","EDO", 3, "s5",["IALM","CAL-1","CAL-2","ALG-2"]],
+    ["Física General","FIS-1", 3, "s5",["IALM"]],
+    ["Comprensión de Contextos Sociales","CC-1", 3, "s5",["COE-1","COE-2"]],
+    ["Idioma Extranjero V","IE-5", 3, "s5",["IE-1","IE-2","IE-3","IE-4"]],
+  ],
+  "s6": [
+    ["Diseño de Software","SOF-4", 3, "s6",["SOF-2","SOF-3","SOF-1","PA","PC"]],
+    ["Arquitectura de Computadores y Diseño de Circuitos Digitales","ACDC", 3, "s6",["IALP","TDS"]],
+    ["Máquinas Abstractas y Lenguajes Formales","MALF", 3, "s6",["MD","ALG-2","TDS"]],
+    ["Electricidad y Magnetismo","FIS-2", 3, "s6",["FIS-1","IALM"]],
+    ["Comprensión de Contextos Culturales","CC-2", 3, "s6",["CC-1","COE-1","COE-2"]],
+    ["Idioma Extranjero VI", 3, "s6",["IE-1","IE-2","IE-3","IE-4","IE-5"]],
+  ],
+  "s7": [
+    ["Construcción de Software","SOF-5", 4, "s7",["SOF-4","SOF-3","SOF-2","SOF-1","PA","PC"]],
+    ["Gestión de Base de Datos","BD-2", 4, "s7",["BD-1","MD","ALG-1","ALG-2","TDS"]],
+    ["Sistemas Operativos","SIS-1", 4, "s7",["ACDC","IALP","TDS"]],
+    ["Redes de Computadores","RED-1", 4, "s7",["ACDC","IALP","TDS"]],
+    ["Fundamentos de Administración","ADM-1", 4, "s7",[]],
+    ["Ética y Responsabilidad Social","ERS-1", 4, "s7",["CC-1","CC-2","COE-1","COE-2","TEDH","ADA"]],
+  ],
+  "s8": [
+    ["Sistemas Distribuidos","SIS-2", 4, "s8",["ACDC","IALP","TDS","RED-1","SIS-1"]],
+    ["Inteligencia Artificial","IA", 4, "s8",["LPP","IALP"]],
+    ["Administración de Redes y Sistemas Computacionales","RED-2", 4, "s8",["ACDC","IALP","TDS","RED-1","SIS-1"]],
+    ["Electivo I","ELE-1", 4, "s8",[]],
+    ["Ing. Económica y Evaluación de Proyectos","ADM-2", 4, "s8",["ADM-1"]],
+    ["Responsabilidad Social","ERS-2", 4, "s8",["ERS-1","CC-1","CC-2","COE-1","COE-2","TEDH","ADA"]],
+  ],
+  "s9": [
+    ["Taller de Desarrollo de Software","SOF-6", 5, "s9",["SOF-5","SOF-4","SOF-3","SOF-2","SOF-1","PA","PC"]],
+    ["Electivo II","ELE-1", 5, "s9",[]],
+    ["Seguridad Informática","SEGI", 5, "s9",["SOF-5","SOF-4","SOF-3","SOF-2","SOF-1","PA","PC","ACDC","IALP","TDS","RED-1","SIS-1"]],
+    ["Gestión de Proyectos Tecnológicos","ADM-3", 5, "s9",["ADM-2","ADM-1"]],
+    ["Gestión de Recursos Humanos","ADM-4", 5, "s9",["ADM-2","ADM-1"]],
+  ],
+  "s10": [
+    ["Formulación Proyecto de Titulación","PT-1", 5, "s10",[]],
+    ["Electivo III","ELE-3", 5, "s10",[]],
+    ["Gestión de Innovación y Emprendimiento", 5, "s10",["ADM-3","ADM-2","ADM-1"]],
+  ],
+  "s11": [
+    ["Proyecto de Titulación","PT-2", 6, "s11",["FPT"]],
+    ["Electivo IV","ELE-4", 6, "s11",[]],
+  ],
+};
